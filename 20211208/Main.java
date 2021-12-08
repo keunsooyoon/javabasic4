@@ -8,15 +8,33 @@
 
 */
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 
-class Main {
-  public static void main(String[] args) {
+// public class Main {
+//   public static void main(String[] args) {
 
-    ArrayList pitches = new ArrayList();
+//     ArrayList pitches = new ArrayList();
 
-  }
-}
+//     pitches.add("123");
+//     pitches.add("234");
+//     pitches.add("789");
+//     pitches.add(0,"133");
+
+//     System.out.println(pitches.get(1));
+//     // get()메서드를 이용하여 특정 인덱스 값을 추출
+
+//     System.out.println(pitches.size());
+//     // size()메서드를 이용하여 리스트의 개수를 확인
+
+//     System.out.println(pitches.contains("234"));
+//     //contains() 메서드를 이용하여 포함 여부 확인
+
+//     System.out.println(pitches.remove("789"));
+//     //remove()매서드를 이용하여 해당 객체 삭제 하고 결과를 리턴 
+//     System.out.println(pitches.remove(0));
+//     //remove()매서드를 이용하여 해당 인덱스의 객체를 삭제
+//   }
+// }
 
 
 
@@ -34,18 +52,18 @@ class Main {
 
 */
 
-class Main {
-  public static void main(String[] args) {
+// class Main {
+//   public static void main(String[] args) {
 
-    String[] weeks = new String[7];
+//     String[] weeks = new String[7];
 
-    weeks[0] = "월";
-    weeks[1] = "화";
-    weeks[2] = "수";
-    weeks[3] = "목";
-    weeks[4] = "금";
-    weeks[5] = "토";
-    weeks[6] = "일";
+//     weeks[0] = "월";
+//     weeks[1] = "화";
+//     weeks[2] = "수";
+//     weeks[3] = "목";
+//     weeks[4] = "금";
+//     weeks[5] = "토";
+//     weeks[6] = "일";
 
   // String[] weeks = {"월","화","수","목","금","토","일"};
 
@@ -53,17 +71,17 @@ class Main {
 
   // 반복문 (for, while, (do~while))
 
-    for (int i = 0; i < weeks.length; i++) {
-      System.out.println(weeks[i]);
-    }
+//     for (int i = 0; i < weeks.length; i++) {
+//       System.out.println(weeks[i]);
+//     }
 
-   System.out.println(weeks[7]);
-  //ArrrayIndexOutOfBoundsException "예외"
-  //인덱스가 없는 위치를 지정
+//    System.out.println(weeks[7]);
+//   //ArrrayIndexOutOfBoundsException "예외"
+//   //인덱스가 없는 위치를 지정
 
 
-  }
-}
+//   }
+// }
 
 
 // char 문자 
