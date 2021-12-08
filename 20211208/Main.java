@@ -1,3 +1,45 @@
+/*
+  Generics - 입력되는 객체의 자료형을 강제한다. 
+
+
+
+
+ ArrayList pitches = new ArrayList();
+
+pitches 라는 ArrayList에 담을 수 있는 자료형은 String 뿐이다. 
+ ArrayList<String> pitches = new ArrayList<String>();
+
+*/
+import java.util.ArrayList;
+
+public class Main {
+  public static void main(String[] args) {
+
+    //ArrayList aList = new ArrayList();
+    ArrayList<String> aList = new ArrayList<String>();
+
+    aList.add("hello");
+    aList.add("java");
+
+    // String hello = (String)aList.get(0);
+    // String java = (String)aList.get(1);
+    //Casting 강제 형변환
+
+    String hello = aList.get(0);
+    String java = aList.get(1);
+    // 제네릭스를 사용하여 자료형을 선언하면 그 이후로는
+    // 자료형에대한 형변환 casting이 필요 없다. 
+    //이미 자바가 aList에는 반드시 String자료형만 추가
+    //된다는 것을 알고 있다. 제네릭스를 사용하면 형변환에
+    //대한 불필요한 코딩과 잘못된 형변환등의 예외를 방지할 수 있다. 
+
+    System.out.println(hello);
+    System.out.println(java);
+
+  }
+}
+
+
 /* List 리스트
   배열과 비슷한 자료형, 크기가 정해지지 않고
   동적으로 변한다.  배열은 그 크기가 생성시에
